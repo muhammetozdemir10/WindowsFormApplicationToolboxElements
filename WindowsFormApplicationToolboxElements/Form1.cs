@@ -44,5 +44,15 @@ namespace WindowsFormApplicationToolboxElements
         {
             Process.Start("https://vexyverse.com");
         }
+
+        private void numericUpDown1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(numericUpDown1.Value.ToString());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Merhaba :)");
+        }
     }
 }
